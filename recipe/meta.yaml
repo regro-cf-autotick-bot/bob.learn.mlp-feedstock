@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.learn.mlp-{{ version }}.zip
   md5: 67e39ccffd26097e72d49044e2e5c99c
-  url: https://pypi.python.org/packages/source/b/bob.learn.mlp/bob.learn.mlp-{{ version }}.zip
+  url: https://pypi.io/packages/source/b/bob.learn.mlp/bob.learn.mlp-{{ version }}.zip
 
 build:
   number: 0
