@@ -1,4 +1,4 @@
-{% set version = "2.0.11" %}
+{% set version = "2.1.0" %}
 
 package:
   name: bob.learn.mlp
@@ -6,11 +6,11 @@ package:
 
 source:
   fn: bob.learn.mlp-{{ version }}.zip
-  md5: b59482e82a9c4126d3d2397cf9eb846b
+  md5: 67e39ccffd26097e72d49044e2e5c99c
   url: https://pypi.python.org/packages/source/b/bob.learn.mlp/bob.learn.mlp-{{ version }}.zip
 
 build:
-  number: 3
+  number: 0
   skip: true  # [win]
 
 requirements:
