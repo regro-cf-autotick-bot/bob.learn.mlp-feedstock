@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.1.2" %}
 
 package:
   name: bob.learn.mlp
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.learn.mlp-{{ version }}.zip
-  md5: 67e39ccffd26097e72d49044e2e5c99c
+  md5: ef64f7f6bf33f3264fbe6164072d44fc
   url: https://pypi.io/packages/source/b/bob.learn.mlp/bob.learn.mlp-{{ version }}.zip
 
 build:
@@ -50,7 +50,7 @@ test:
     - nose
 
 about:
-  home: http://github.com/bioidiap/bob.learn.mlp
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Bob's Multi-layer Perceptron and Trainers
 
