@@ -11,6 +11,18 @@ Summary: Bob's Multi-layer Perceptron and Trainers
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bob.learn.mlp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bob.learn.mlp-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/bob.learn.mlp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bob.learn.mlp-feedstock)
+Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bob.learn.mlp/badges/version.svg)](https://anaconda.org/conda-forge/bob.learn.mlp)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bob.learn.mlp/badges/downloads.svg)](https://anaconda.org/conda-forge/bob.learn.mlp)
+
 Installing bob.learn.mlp
 ========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `bob.learn.mlp` available on your 
 ```
 conda search bob.learn.mlp --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -55,6 +66,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -67,18 +79,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bob.learn.mlp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bob.learn.mlp-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/bob.learn.mlp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bob.learn.mlp-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bob.learn.mlp/badges/version.svg)](https://anaconda.org/conda-forge/bob.learn.mlp)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bob.learn.mlp/badges/downloads.svg)](https://anaconda.org/conda-forge/bob.learn.mlp)
 
 
 Updating bob.learn.mlp-feedstock
